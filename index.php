@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3B-2G Travel</title>
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style type="text/css">
         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
         *{
@@ -408,6 +409,7 @@
         <?php } else { ?>
             <a href="dangnhap.php">Đăng nhập</a>
         <?php } ?>
+        <a href="map.php"><i class="material-icons">&#xe55f;</i></a>
     </nav>
     <div>
         
@@ -426,7 +428,6 @@
     <h1 class="topic">
         Đặt tour ngay
     </h1>
-
     <div class="row">
         <div class="image">
             <img src="images/booking" alt="">
@@ -529,7 +530,7 @@
     <div class="box-container">
 
         <div class="box">
-            <a href="khachsan.php"><i class="fa fa-bars"></i></a>
+            <a href="khachsan.php"><i class="material-icons">&#xe53a;</i></a>
             <h3>Khách sạn</h3>
             <p>Chúng tôi ở đây để phục vụ bạn!</p>
         </div>
@@ -626,6 +627,7 @@
     </div>
     
 </section>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7838.684254869503!2d106.70676642475235!3d10.785086936675276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1547181657956" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 <section class="footer">
 
     <div class="box-container">
